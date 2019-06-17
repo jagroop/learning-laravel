@@ -18,8 +18,7 @@
                       @foreach($posts as $post)
                         <li>{!! $post->title !!}</li>
                       @endforeach
-                    </ul>
-                    {{ e($test_string) }}
+                    </ul>      
                     You are logged in!
                 </div>
             </div>
